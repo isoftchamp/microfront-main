@@ -1,0 +1,6 @@
+[submodule "root-config"]
+path = root-config
+url = https://github.com/isoftchamp/microfront-root-config.git
+[submodule "react-app"]
+path = react-app
+url = https://github.com/isoftchamp/microfront-react.git

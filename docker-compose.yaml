@@ -1,0 +1,28 @@
+services:
+  root-config:
+    build:
+      context: ./root-config
+    ports:
+      - "9000:9000"
+    networks:
+      - single-spa-network
+
+  app1:
+    build:
+      context: ./react-app
+    ports:
+      - "8080:8080"
+    networks:
+      - single-spa-network
+
+  app2:
+    build:
+      context: ./react-app
+    ports:
+      - "8081:8080"
+    networks:
+      - single-spa-network
+
+networks:
+  single-spa-network:
+    driver: bridge
