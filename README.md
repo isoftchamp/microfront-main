@@ -21,7 +21,7 @@ Ensure you have Docker and Docker Compose installed on your machine.
 Clone the repository including its submodules:
 
 ```bash
-git clone --recurse-submodules https://github.com/your-username/your-root-repo.git
+git clone --recurse-submodules https://github.com/isoftchamp/microfront-main.git
 cd your-root-repo
 ```
 
